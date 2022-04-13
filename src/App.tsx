@@ -19,9 +19,6 @@ function App() {
    */
   const getPictures = useCallback(async () => {
 
-    //console.log("remaining: " + remaining.current)
-    //console.log("Init? " + isInit.current)
-
     if ( (remaining && remaining > 0) || isInit.current === true) {
   
       let params: CharacterParameters = {
